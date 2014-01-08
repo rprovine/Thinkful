@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main {
+	margin-top: 30px;
+	width: 960px;
+	margin:0 auto;
+}
+
+.nav {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 50px;
+
+}
+.app {
+	margin-top: 0px;
+	opacity: .7;
+}
+
+.app_icon {
+	background-image:url(google_app_icon.png);
+	diplay: inline-block;
+	height: 24px;
+	width:25px;
+}
+
+.app:hover {
+	opacity: 1;
+}
+
+.banner {
+	background-image:url(zora_google_hp.jpg);
+	height: 207px;
+	width: 632px;
+	margin: 0 auto;
+}
+
+.search_box {
+	width: 632px;
+	margin: 0 auto;
+	text-align: center;
+}
+.sign_box {
+	background-color: #4487FB;
+	color: white;
+	font-weight: 700;
+	padding: 7px 12px;
+	border-radius: 3px;
+}
+
+.sign_box:hover {
+	text-decoration: none;
+	color:white;
+}
+
+#search {
+	width: 541px;
+	height: 30px;
+}
+
+nav {
+	float: right;
+	margin: 5px 15px;
+}
+
+nav a {
+	color: #131313;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 13px;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+button {
+	width: 100px;
+	height: 25px;
+	background-color: #EEEEEE;
+	margin: 20px 10px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	font-weight:800;
+}
+button:hover {
+	box-shadow: 1px 1px 1px #DDDDDD;
+}
+
+
+.buttons {
+	text-align: center;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	background-color: #EEEEEE;
+	border-top: #DDDDDD;
+}
+
+.footer_nav_left {
+	float:left;
+	margin: 5px 15px;
+	padding-top: 10px;
+}
+
+.footer nav a {
+	font-size: 20px;
+	font-family: Helvetica;
+	font-weight: 400;
+	color: #666;
+}
+
+.footer_nav_right {
+	float: right;
+	margin: 5px 15px;
+	padding-top: 10px;
+}
+
+.footer nav a b {
+	color: maroon;
+}
+
